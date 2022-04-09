@@ -1,0 +1,37 @@
+<div class="container" *ngIf="productFormGroup">
+
+    <form [formGroup]="productFormGroup" >
+        <div class="form-group">
+            <label for="">ID</label>
+            <input type="number" class="form-control" name="id" formControlName="id">
+        </div>
+    
+        <div class="form-group">
+          <label for="">Name</label>
+          <input type="text" class="form-control" name="name" placeholder="Enter Name" formControlName="name"
+ >
+        </div>
+        <div class="form-group">
+            <label for="">Price</label>
+            <input type="number" class="form-control" name="price" placeholder="Enter Price" formControlName="price">
+        </div>
+          <div class="form-group">
+            <label for="">Quantity</label>
+            <input type="number" class="form-control" name="quantity" placeholder="Enter quantity" formControlName="quantity">
+        </div>
+            
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="available" formControlName="available">
+            <label class="form-check-label" >Available</label>
+        </div>
+            
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="selected" formControlName="selected">
+            <label class="form-check-label" >Selected</label>
+        </div>
+            
+        
+        
+        <button type="submit" class="btn btn-primary" (click)="onUpdateProduct()" >Submit</button>
+      </form>
+</div>

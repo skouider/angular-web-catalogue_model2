@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 98000,
+      "quantity": 400,
+      "available": true,
+      "selected": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 17500,
+      "quantity": 200,
+      "available": true,
+      "selected": false
+    },
+    {
+      "id": 3,
+      "name": "SmartPhone",
+      "price": 125000,
+      "quantity": 3400,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Ipad",
+      "price": 98000,
+      "quantity": 1800,
+      "available": false,
+      "selected": true
+    },
+    {
+      "id": 5,
+      "name": "Scanner",
+      "price": 74000,
+      "quantity": 300,
+      "available": true,
+      "selected": false
+    },
+    {
+      "id": 6,
+      "name": "Watches",
+      "price": 76000,
+      "quantity": 400,
+      "available": true,
+      "selected": true
+    },
+    {
+      "name": "xbox",
+      "price": 453333,
+      "quantity": 875655,
+      "available": true,
+      "selected": true,
+      "id": 8
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
